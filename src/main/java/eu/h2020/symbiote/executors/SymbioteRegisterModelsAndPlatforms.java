@@ -19,34 +19,40 @@ import java.math.BigInteger;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
-public class SymbioteSender {
+public class SymbioteRegisterModelsAndPlatforms {
     private static final String DATA_FOLDER = "resources/";
     private static final String QUERY_A = "queryA.sparql";
     private static final String MODEL_A = "platformA.ttl";
     private static final String METADATA_A = "platformA-instances.ttl";
+    private static final String MODEL_B = "platformB.ttl";
+    private static final String METADATA_B = "platformB-instances.ttl";
 
 
     public static void main(String[] args) throws ClientProtocolException, IOException {
+        registerModelAndPlatform(MODEL_A,METADATA_A);
+        registerModelAndPlatform(MODEL_B,METADATA_B);
+    }
+
+    private static void registerModelAndPlatform( String modelFile, String platformFile ) throws IOException {
         System.out.println( "Registering model...");
-        BigInteger bigInteger = registerModel();
+        BigInteger bigInteger = registerModel(modelFile);
         if ( bigInteger != null ) {
             System.out.println( "Creating platform with model Id: " + bigInteger );
-            registerPlatform(bigInteger);
+            registerPlatform(bigInteger,platformFile);
             System.out.println( "Registration finished");
         }
     }
 
-    private static BigInteger registerModel( ) throws IOException {
+
+    private static BigInteger registerModel(String modelFile ) throws IOException {
         HttpClient client = new DefaultHttpClient();
         HttpPost post = new HttpPost("http://localhost:8001/informationmodel");
 
 
         InformationModel model = new InformationModel();
         model.setFormat(RDFFormat.Turtle);
-        model.setInstance(readFile(MODEL_A));
+        model.setInstance(readFile(modelFile));
         Gson gson          = new Gson();
         String s = gson.toJson(model);
 
@@ -67,7 +73,7 @@ public class SymbioteSender {
         return result.getId();
     }
 
-    private static void registerPlatform ( BigInteger modelId ) throws IOException {
+    private static void registerPlatform ( BigInteger modelId, String platformFile ) throws IOException {
         HttpClient client = new DefaultHttpClient();
         HttpPost post = new HttpPost("http://localhost:8001/platform");
 
@@ -75,7 +81,7 @@ public class SymbioteSender {
         Platform p = new Platform();
         p.setFormat(RDFFormat.Turtle);
         p.setModelId(modelId);
-        p.setInstance(readFile(METADATA_A));
+        p.setInstance(readFile(platformFile));
         Gson gson          = new Gson();
         String s = gson.toJson(p);
 

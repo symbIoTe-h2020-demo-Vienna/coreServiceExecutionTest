@@ -1,8 +1,7 @@
 package eu.h2020.symbiote.executors;
 
 import com.google.gson.Gson;
-import eu.h2020.symbiote.executors.models.Ontology;
-import eu.h2020.symbiote.executors.models.SearchObject;
+import eu.h2020.symbiote.executors.models.Mapping;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
@@ -21,28 +20,52 @@ import java.nio.file.Paths;
 /**
  * Created by Mael on 12/09/2016.
  */
-public class SymbioteQuery {
+public class SymbioteRegisterMapping {
 
     private static final String DATA_FOLDER = "resources/";
-    private static final String QUERY_A = "queryB.sparql";
-    private static final String MODEL_ID = "27184904383838704579363750930";
+
+    private static final String MAPPING_AB = "mappingAB.xml";
+
+    private static final String MODELA = "27184904365391960505654199312";
+    private static final String MODELB = "27184904383838704579363750930";
+
 
     public static void main(String[] args) throws ClientProtocolException, IOException {
-        HttpClient client = new DefaultHttpClient();
-        HttpPost post = new HttpPost("http://localhost:8080/search");
+        System.out.println( "Registering mapping...");
+        BigInteger bigInteger = registerMapping(MODELA,MODELB,MAPPING_AB);
+        System.out.println("Mapping " + bigInteger + " registered!");
+        //Need to register also reverse mapping for transitivity
+        bigInteger = registerMapping(MODELB,MODELA,MAPPING_AB);
+        System.out.println("Mapping transitive " + bigInteger + " also registered!");
+    }
 
-        SearchObject p = new SearchObject(Ontology.getModelGraphURI(MODEL_ID), readFile(QUERY_A));
+    private static BigInteger registerMapping( String modelA, String modelB, String modelFile ) throws IOException {
+        HttpClient client = new DefaultHttpClient();
+        HttpPost post = new HttpPost("http://localhost:8001/mapping");
+
+        Mapping mapping = new Mapping();
+        mapping.setMapping(readFile(modelFile));
+        mapping.setModelId1(new BigInteger(modelA));
+        mapping.setModelId2(new BigInteger(modelB));
+
         Gson gson          = new Gson();
-        String s = gson.toJson(p);
+        String s = gson.toJson(mapping);
+
         StringEntity input = new StringEntity(s);
         input.setContentType("application/json");
         post.setEntity(input);
         HttpResponse response = client.execute(post);
         BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
         String line = "";
+        StringBuilder sb = new StringBuilder();
         while ((line = rd.readLine()) != null) {
             System.out.println(line);
+            sb.append(line);
         }
+        Gson gson2 = new Gson();
+        Mapping result = gson2.fromJson(sb.toString(), Mapping.class);
+        System.out.println( "Mapping created! Id: " + result.getId());
+        return result.getId();
     }
 
     private static String readFile(String filename) throws IOException {
@@ -51,4 +74,5 @@ public class SymbioteQuery {
         System.out.println(path.toAbsolutePath());
         return new String(Files.readAllBytes(path));
     }
+
 }
