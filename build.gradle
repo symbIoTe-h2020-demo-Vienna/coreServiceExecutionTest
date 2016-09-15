@@ -1,0 +1,33 @@
+buildscript {
+    ext {
+        springBootVersion = '1.4.0.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+jar {
+    baseName = 'coreServiceExecutionTest'
+    version = '0.0.1-SNAPSHOT'
+}
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('com.google.code.gson:gson:2.7')
+    compile('org.apache.httpcomponents:httpclient:4.2.6')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
