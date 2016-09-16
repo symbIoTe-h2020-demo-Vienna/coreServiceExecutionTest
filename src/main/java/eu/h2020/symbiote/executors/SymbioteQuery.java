@@ -29,7 +29,7 @@ public class SymbioteQuery {
 
     public static void main(String[] args) throws ClientProtocolException, IOException {
         HttpClient client = new DefaultHttpClient();
-        HttpPost post = new HttpPost("http://localhost:8080/search");
+        HttpPost post = new HttpPost("http://localhost:8120/search");
 
         SearchObject p = new SearchObject(Ontology.getModelGraphURI(MODEL_ID), readFile(QUERY_A));
         Gson gson          = new Gson();
