@@ -13,7 +13,6 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -24,14 +23,28 @@ import java.nio.file.Paths;
 public class SymbioteQuery {
 
     private static final String DATA_FOLDER = "resources/";
-    private static final String QUERY_A = "queryB.sparql";
-    private static final String MODEL_ID = "27184904383838704579363750930";
+    private static final String QUERY_A = "queryA.sparql";
+    private static final String modelA_ID = "27195916367067386049520877871"; //There you have to provide the model ID for Model A
+                                                                            //(You can get it from localhost:8001/informationmodel page) for now
+
+    private static final String QUERY_B = "queryB.sparql";
+    private static final String modelB_ID = "27195916367067386049520877869"; //   -||-
+
+    private static final String QUERY_CORE = "queryQuery.sparql";
+    private static final String MODEL_ID = "none";
 
     public static void main(String[] args) throws ClientProtocolException, IOException {
+        searchUsingQuery(QUERY_A, modelA_ID);
+        searchUsingQuery(QUERY_B, modelB_ID);
+        searchUsingQuery(QUERY_CORE, MODEL_ID);
+    }
+
+    public static void searchUsingQuery(String query, String model) throws IOException {
+        System.out.println("Results for: \nquery: " + query + "\nmodel id: " + model +"\n");
         HttpClient client = new DefaultHttpClient();
         HttpPost post = new HttpPost("http://localhost:8120/search");
 
-        SearchObject p = new SearchObject(Ontology.getModelGraphURI(MODEL_ID), readFile(QUERY_A));
+        SearchObject p = new SearchObject(Ontology.getModelGraphURI(modelA_ID), readFile(QUERY_A));
         Gson gson          = new Gson();
         String s = gson.toJson(p);
         StringEntity input = new StringEntity(s);
@@ -44,6 +57,8 @@ public class SymbioteQuery {
             System.out.println(line);
         }
     }
+
+
 
     private static String readFile(String filename) throws IOException {
         Path path = Paths.get(DATA_FOLDER + filename);
