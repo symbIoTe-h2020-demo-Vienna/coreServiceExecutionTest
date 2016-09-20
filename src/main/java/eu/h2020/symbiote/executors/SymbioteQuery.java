@@ -24,13 +24,13 @@ public class SymbioteQuery {
 
     private static final String DATA_FOLDER = "resources/";
     private static final String QUERY_A = "queryA.sparql";
-    private static final String modelA_ID = "27195916367067386049520877871"; //There you have to provide the model ID for Model A
+    private static final String modelA_ID = "27197365727749257496298336307"; //There you have to provide the model ID for Model A
                                                                             //(You can get it from localhost:8001/informationmodel page) for now
 
     private static final String QUERY_B = "queryB.sparql";
-    private static final String modelB_ID = "27195916367067386049520877869"; //   -||-
+    private static final String modelB_ID = "27197365727749257496298336309"; //   -||-
 
-    private static final String QUERY_CORE = "queryQuery.sparql";
+    private static final String QUERY_CORE = "queryCore.sparql";
     private static final String MODEL_ID = "none";
 
     public static void main(String[] args) throws ClientProtocolException, IOException {
@@ -40,7 +40,7 @@ public class SymbioteQuery {
     }
 
     public static void searchUsingQuery(String query, String model) throws IOException {
-        System.out.println("Results for: \nquery: " + query + "\nmodel id: " + model +"\n");
+        System.out.println("-Results for: \n query: " + query + "\n model id: " + model +" :\n");
         HttpClient client = new DefaultHttpClient();
         HttpPost post = new HttpPost("http://localhost:8120/search");
 
@@ -56,6 +56,7 @@ public class SymbioteQuery {
         while ((line = rd.readLine()) != null) {
             System.out.println(line);
         }
+        System.out.println("\n");
     }
 
 
