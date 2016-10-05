@@ -1,8 +1,8 @@
-package eu.h2020.symbiote.executors;
+package eu.h2020.symbiote.DEPRICATEDexecutors;
 
 import com.google.gson.Gson;
-import eu.h2020.symbiote.executors.models.Ontology;
-import eu.h2020.symbiote.executors.models.SearchObject;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.Ontology;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.SearchObject;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;

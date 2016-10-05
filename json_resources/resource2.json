@@ -1,0 +1,21 @@
+{
+  "name": "Sensor 88",
+  "owner": "Someone",
+  "description": "Senses something...",
+  "location":
+  {
+    "name": "Gdynia",
+    "point": {
+      "x": 11.383134,
+      "y": 34.243237
+    },
+    "altitude": 100
+  },
+  "observedProperties":
+  [
+    "Temperature",
+    "Humidity",
+    "Wind"
+  ],
+  "resourceURL": "http://sensor.com/"
+}

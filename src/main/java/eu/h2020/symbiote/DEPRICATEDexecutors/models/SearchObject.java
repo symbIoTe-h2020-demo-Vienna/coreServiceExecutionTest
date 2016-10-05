@@ -1,4 +1,4 @@
-package eu.h2020.symbiote.executors.models;
+package eu.h2020.symbiote.DEPRICATEDexecutors.models;
 
 /**
  * Created by Mael on 07/09/2016.

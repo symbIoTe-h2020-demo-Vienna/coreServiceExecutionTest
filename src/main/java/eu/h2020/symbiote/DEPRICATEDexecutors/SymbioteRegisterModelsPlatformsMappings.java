@@ -1,18 +1,17 @@
-package eu.h2020.symbiote.executors;
+package eu.h2020.symbiote.DEPRICATEDexecutors;
 
 
 import com.google.gson.Gson;
-import eu.h2020.symbiote.executors.models.InformationModel;
-import eu.h2020.symbiote.executors.models.Mapping;
-import eu.h2020.symbiote.executors.models.Platform;
-import eu.h2020.symbiote.executors.models.RDFFormat;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.InformationModel;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.Mapping;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.Platform;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.RDFFormat;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -70,7 +69,6 @@ public class SymbioteRegisterModelsPlatformsMappings {
         return result.getId();
     }
 
-
     private static BigInteger registerModelAndPlatform( String modelFile, String platformFile ) throws IOException {
         System.out.println( "Registering model...");
         BigInteger modelID = registerModel(modelFile);
@@ -81,7 +79,6 @@ public class SymbioteRegisterModelsPlatformsMappings {
         }
         return modelID;
     }
-
 
     private static BigInteger registerModel(String modelFile ) throws IOException {
         HttpClient client = new DefaultHttpClient();

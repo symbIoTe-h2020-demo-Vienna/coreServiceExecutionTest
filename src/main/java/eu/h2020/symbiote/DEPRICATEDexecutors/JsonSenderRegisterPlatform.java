@@ -1,8 +1,8 @@
 //package eu.h2020.symbiote.executors;
 //
 //import com.google.gson.Gson;
-//import eu.h2020.symbiote.executors.models.InformationModel;
-//import eu.h2020.symbiote.executors.models.RDFFormat;
+//import eu.h2020.symbiote.DEPRICATEDexecutors.models.Platform;
+//import eu.h2020.symbiote.DEPRICATEDexecutors.models.RDFFormat;
 //import org.apache.http.HttpResponse;
 //import org.apache.http.client.ClientProtocolException;
 //import org.apache.http.client.HttpClient;
@@ -18,21 +18,22 @@
 //import java.nio.file.Paths;
 //
 //
-//public class JsonSenderRegisterModel {
+//public class JsonSenderRegisterPlatform {
 //    private static final String DATA_FOLDER = "resources/";
 //    private static final String MODEL_A = "platformA.ttl";
 //    private static final String METADATA_A = "platformA-instances.ttl";
 //
 //    public static void main(String[] args) throws ClientProtocolException, IOException {
 //        HttpClient client = new DefaultHttpClient();
-//        HttpPost post = new HttpPost("http://localhost:8001/informationmodel");
+//        HttpPost post = new HttpPost("http://localhost:8001/platform");
 //
 //
-//        InformationModel model = new InformationModel();
-//        model.setFormat(RDFFormat.Turtle);
-//        model.setInstance(readFile(MODEL_A));
+//        Platform p = new Platform();
+//        p.setFormat(RDFFormat.Turtle);
+//        p.setModelId(Long.valueOf(0));
+//        p.setInstance(readFile(METADATA_A));
 //        Gson gson          = new Gson();
-//        String s = gson.toJson(model);
+//        String s = gson.toJson(p);
 //
 //        StringEntity input = new StringEntity(s);
 //        input.setContentType("application/json");

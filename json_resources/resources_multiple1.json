@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Sensor 12",
+    "owner": "Someone",
+    "description": "Senses something...",
+    "location":
+    {
+      "name": "Krakow",
+      "point": {
+        "x": 34.383134,
+        "y": 11.243237
+      },
+      "altitude": 100
+    },
+    "observedProperties":
+    [
+      "Temperature"
+    ],
+    "resourceURL": "http://sensor.com/"
+  },
+  {
+    "name": "Sensor 56",
+    "owner": "Someone",
+    "description": "Senses something...",
+    "location":
+    {
+      "name": "Wroclaw",
+      "point": {
+        "x": 67.383134,
+        "y": 67.243237
+      },
+      "altitude": 100
+    },
+    "observedProperties":
+    [
+      "Temperature",
+      "Humidity",
+      "Wind"
+    ],
+    "resourceURL": "http://sensor.com/"
+  }
+]
