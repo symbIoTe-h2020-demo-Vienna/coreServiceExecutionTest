@@ -1,6 +1,8 @@
 package eu.h2020.symbiote.generators;
 
 import com.google.gson.Gson;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
@@ -22,6 +24,8 @@ import java.nio.file.Paths;
 @EnableDiscoveryClient
 @SpringBootApplication
 public class AddResources {
+
+    private static final Log log = LogFactory.getLog(AddResources.class);
 
     private static final String DATA_FOLDER = "json_resources/";
     private static final String PLATFORM_1 = "platform1.json";
@@ -50,13 +54,13 @@ public class AddResources {
 
     private static String registerPlatformAndResources(String platformFile, String resourceFile) throws IOException {
         String resourceID = "empty";
-        System.out.println("Registering platform...");
+        log.info("Registering platform...");
         String platformID = registerPlatform(platformFile);
-        System.out.println("Platform registered with id :" + platformID);
+        log.info("Platform registered with id :" + platformID);
         if (platformID != null) {
-            System.out.println("Registering resource with platform Id: " + platformID);
+            log.info("Registering resource with platform Id: " + platformID);
             resourceID = registerResource(platformID, resourceFile);
-            System.out.println("Registration finished");
+            log.info("Registration finished");
         }
         return resourceID;
     }
@@ -66,30 +70,23 @@ public class AddResources {
         HttpPost post = new HttpPost(HOST + "/cloud_api/platforms");
 
         String platformInstance = readFile(platformFile);
-        System.out.println("||||||||||||||||||||||||||||||||||||||||");
-        System.out.println(platformInstance);
-        System.out.println("||||||||||||||||||||||||||||||||||||||||");
-
         StringEntity input = new StringEntity(platformInstance);
         input.setContentType("application/json");
         post.setEntity(input);
         HttpResponse response = client.execute(post);
         BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
-        System.out.println("||||||||||||||||||||||||||||||||||||||||");
-        System.out.println(rd);
-        System.out.println("||||||||||||||||||||||||||||||||||||||||");
         String line = "";
         StringBuilder sb = new StringBuilder();
         while ((line = rd.readLine()) != null) {
             System.out.println(line);
             sb.append(line);
         }
-        System.out.println("||||||||||||||||||||||||||||||||||||||||");
-        System.out.println(sb);
-        System.out.println("||||||||||||||||||||||||||||||||||||||||");
+        log.info("||||||||||||||||||||||||||||||||||||||||");
+        log.info("Received repsonse: " + sb);
+        log.info("||||||||||||||||||||||||||||||||||||||||");
         Gson gson2 = new Gson();
         String[] result = gson2.fromJson(sb.toString(), String[].class);
-        System.out.println("Resource created! Id: " + result[0]);
+        log.info("Resource created! Id: " + result[0]);
         return result[0];
     }
 
@@ -109,16 +106,19 @@ public class AddResources {
             System.out.println(line);
             sb.append(line);
         }
+        log.info("||||||||||||||||||||||||||||||||||||||||");
+        log.info("Received repsonse: " + sb);
+        log.info("||||||||||||||||||||||||||||||||||||||||");
         Gson gson2 = new Gson();
         String result = gson2.fromJson(sb.toString(), String.class);
-        System.out.println("Resource created! Id: " + result);
+        log.info("Resource created! Id: " + result);
         return result;
     }
 
     private static String readFile(String filename) throws IOException {
         Path path = Paths.get(DATA_FOLDER + filename);
-        System.out.println(path.toString());
-        System.out.println(path.toAbsolutePath());
+        log.info(path.toString());
+        log.info(path.toAbsolutePath());
         return new String(Files.readAllBytes(path));
     }
 }
