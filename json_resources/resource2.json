@@ -5,11 +5,9 @@
   "location":
   {
     "name": "Gdynia",
-    "point": {
-      "x": 11.383134,
-      "y": 34.243237
-    },
-    "altitude": 100
+    "longitude": 18.547119,
+    "latitude": 54.496205,
+    "altitude": 50
   },
   "observedProperties":
   [

@@ -1,709 +1,5 @@
 [
   {
-    "name": "urn:STA/SPO.09.A23.65509.1.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.A23.65509.1.1",
-    "location": {
-      "name": "A23",
-      "description": "A23",
-      "longitude": 16.383134,
-      "latitude": 48.243237,
-      "altitude": 162
-    },
-    "observedProperties": [
-      "SO2"
-    ],
-    "resourceID": "122"
-  },
-  {
-    "name": "urn:STA/SPO.09.ZA.1552.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.ZA.1552.8.1",
-    "location": {
-      "name": "ZA",
-      "description": "ZA",
-      "longitude": 16.3543688,
-      "latitude": 48.250101,
-      "altitude": 200
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "123"
-  },
-  {
-    "name": "urn:STA/SPO.09.GAUD.1505.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.GAUD.1505.8.1",
-    "location": {
-      "name": "GAUD",
-      "description": "GAUD",
-      "longitude": 16.339498,
-      "latitude": 48.186904,
-      "altitude": 179
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "124"
-  },
-  {
-    "name": "urn:STA/SPO.09.BELG.1500.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.BELG.1500.8.1",
-    "location": {
-      "name": "BELG",
-      "description": "BELG",
-      "longitude": 16.36148,
-      "latitude": 48.174296,
-      "altitude": 218
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "125"
-  },
-  {
-    "name": "urn:STA/SPO.09.TAB.524.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.TAB.524.8.1",
-    "location": {
-      "name": "TAB",
-      "description": "TAB",
-      "longitude": 16.3803028,
-      "latitude": 48.216677,
-      "altitude": 162
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "126"
-  },
-  {
-    "name": "urn:STA/SPO.09.ZA.2016.1.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.ZA.2016.1.1",
-    "location": {
-      "name": "ZA",
-      "description": "ZA",
-      "longitude": 16.3543688,
-      "latitude": 48.250101,
-      "altitude": 200
-    },
-    "observedProperties": [
-      "SO2"
-    ],
-    "resourceID": "127"
-  },
-  {
-    "name": "urn:STA/SPO.09.STAD.5517.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.STAD.5517.5.1",
-    "location": {
-      "name": "STAD",
-      "description": "STAD",
-      "longitude": 16.4553026,
-      "latitude": 48.2267875,
-      "altitude": 159
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "128"
-  },
-  {
-    "name": "urn:STA/SPO.09.SCHA.5065.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.SCHA.5065.5.1",
-    "location": {
-      "name": "SCHA",
-      "description": "SCHA",
-      "longitude": 16.2990855,
-      "latitude": 48.2362756,
-      "altitude": 319
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "129"
-  },
-  {
-    "name": "urn:STA/SPO.09.LOB.823.7.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.LOB.823.7.1",
-    "location": {
-      "name": "LOB",
-      "description": "LOB",
-      "longitude": 16.5258382,
-      "latitude": 48.162198,
-      "altitude": 155
-    },
-    "observedProperties": [
-      "O3"
-    ],
-    "resourceID": "130"
-  },
-  {
-    "name": "urn:STA/SPO.09.FLO.1510.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.FLO.1510.8.1",
-    "location": {
-      "name": "FLO",
-      "description": "FLO",
-      "longitude": 16.394629,
-      "latitude": 48.2609904,
-      "altitude": 164
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "131"
-  },
-  {
-    "name": "urn:STA/SPO.09.GAUD.5061.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.GAUD.5061.5.1",
-    "location": {
-      "name": "GAUD",
-      "description": "GAUD",
-      "longitude": 16.339498,
-      "latitude": 48.186904,
-      "altitude": 179
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "132"
-  },
-  {
-    "name": "urn:STA/SPO.09.STEF.812.1.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.STEF.812.1.1",
-    "location": {
-      "name": "STEF",
-      "description": "STEF",
-      "longitude": 16.3724584,
-      "latitude": 48.208253,
-      "altitude": 172
-    },
-    "observedProperties": [
-      "SO2"
-    ],
-    "resourceID": "133"
-  },
-  {
-    "name": "urn:STA/SPO.09.TAB.55388.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.TAB.55388.5.1",
-    "location": {
-      "name": "TAB",
-      "description": "TAB",
-      "longitude": 16.3803028,
-      "latitude": 48.216677,
-      "altitude": 162
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "134"
-  },
-  {
-    "name": "urn:STA/SPO.09.KEND.1522.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.KEND.1522.8.1",
-    "location": {
-      "name": "KEND",
-      "description": "KEND",
-      "longitude": 16.3102269,
-      "latitude": 48.2047616,
-      "altitude": 236
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "135"
-  },
-  {
-    "name": "urn:STA/SPO.09.STAD.1539.1.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.STAD.1539.1.1",
-    "location": {
-      "name": "STAD",
-      "description": "STAD",
-      "longitude": 16.4553026,
-      "latitude": 48.2267875,
-      "altitude": 159
-    },
-    "observedProperties": [
-      "SO2"
-    ],
-    "resourceID": "136"
-  },
-  {
-    "name": "urn:STA/SPO.09.JAEG.817.1.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.JAEG.817.1.1",
-    "location": {
-      "name": "JAEG",
-      "description": "JAEG",
-      "longitude": 16.2972633333333,
-      "latitude": 48.2701583333333,
-      "altitude": 200
-    },
-    "observedProperties": [
-      "SO2"
-    ],
-    "resourceID": "137"
-  },
-  {
-    "name": "urn:STA/SPO.09.JAEG.820.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.JAEG.820.8.1",
-    "location": {
-      "name": "JAEG",
-      "description": "JAEG",
-      "longitude": 16.2972633333333,
-      "latitude": 48.2701583333333,
-      "altitude": 200
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "138"
-  },
-  {
-    "name": "urn:STA/SPO.09.LOB.5862.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.LOB.5862.5.1",
-    "location": {
-      "name": "LOB",
-      "description": "LOB",
-      "longitude": 16.5258382,
-      "latitude": 48.162198,
-      "altitude": 155
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "139"
-  },
-  {
-    "name": "urn:STA/SPO.09.JAEG.821.7.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.JAEG.821.7.1",
-    "location": {
-      "name": "JAEG",
-      "description": "JAEG",
-      "longitude": 16.2972633333333,
-      "latitude": 48.2701583333333,
-      "altitude": 200
-    },
-    "observedProperties": [
-      "O3"
-    ],
-    "resourceID": "140"
-  },
-  {
-    "name": "urn:STA/SPO.09.KEND.64567.6001.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.KEND.64567.6001.1",
-    "location": {
-      "name": "KEND",
-      "description": "KEND",
-      "longitude": 16.3102269,
-      "latitude": 48.2047616,
-      "altitude": 236
-    },
-    "observedProperties": [
-      "PM2.5"
-    ],
-    "resourceID": "141"
-  },
-  {
-    "name": "urn:STA/SPO.09.ZA.811.7.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.ZA.811.7.1",
-    "location": {
-      "name": "ZA",
-      "description": "ZA",
-      "longitude": 16.3543688,
-      "latitude": 48.250101,
-      "altitude": 200
-    },
-    "observedProperties": [
-      "O3"
-    ],
-    "resourceID": "142"
-  },
-  {
-    "name": "urn:STA/SPO.09.LIES.5511.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.LIES.5511.5.1",
-    "location": {
-      "name": "LIES",
-      "description": "LIES",
-      "longitude": 16.3614531,
-      "latitude": 48.2295081,
-      "altitude": 211
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "143"
-  },
-  {
-    "name": "urn:STA/SPO.09.LAA.5859.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.LAA.5859.5.1",
-    "location": {
-      "name": "LAA",
-      "description": "LAA",
-      "longitude": 16.3906138,
-      "latitude": 48.1607235,
-      "altitude": 251
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "144"
-  },
-  {
-    "name": "urn:STA/SPO.09.STEF.814.38.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.STEF.814.38.1",
-    "location": {
-      "name": "STEF",
-      "description": "STEF",
-      "longitude": 16.3724584,
-      "latitude": 48.208253,
-      "altitude": 172
-    },
-    "observedProperties": [
-      "NO"
-    ],
-    "resourceID": "145"
-  },
-  {
-    "name": "urn:STA/SPO.09.BELG.5059.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.BELG.5059.5.1",
-    "location": {
-      "name": "BELG",
-      "description": "BELG",
-      "longitude": 16.36148,
-      "latitude": 48.174296,
-      "altitude": 218
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "102"
-  },
-  {
-    "name": "urn:STA/SPO.09.LIES.1527.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.LIES.1527.8.1",
-    "location": {
-      "name": "LIES",
-      "description": "LIES",
-      "longitude": 16.3614531,
-      "latitude": 48.2295081,
-      "altitude": 211
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "146"
-  },
-  {
-    "name": "urn:STA/SPO.09.LOB.825.38.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.LOB.825.38.1",
-    "location": {
-      "name": "LOB",
-      "description": "LOB",
-      "longitude": 16.5258382,
-      "latitude": 48.162198,
-      "altitude": 155
-    },
-    "observedProperties": [
-      "NO"
-    ],
-    "resourceID": "103"
-  },
-  {
-    "name": "urn:STA/SPO.09.A23.65512.10.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.A23.65512.10.1",
-    "location": {
-      "name": "A23",
-      "description": "A23",
-      "longitude": 16.383134,
-      "latitude": 48.243237,
-      "altitude": 162
-    },
-    "observedProperties": [
-      "CO"
-    ],
-    "resourceID": "147"
-  },
-  {
-    "name": "urn:STA/SPO.09.AKC.1548.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.AKC.1548.8.1",
-    "location": {
-      "name": "AKC",
-      "description": "AKC",
-      "longitude": 16.3463248,
-      "latitude": 48.219513,
-      "altitude": 199
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "104"
-  },
-  {
-    "name": "urn:STA/SPO.09.TAB.2253.10.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.TAB.2253.10.1",
-    "location": {
-      "name": "TAB",
-      "description": "TAB",
-      "longitude": 16.3803028,
-      "latitude": 48.216677,
-      "altitude": 162
-    },
-    "observedProperties": [
-      "CO"
-    ],
-    "resourceID": "148"
-  },
-  {
-    "name": "urn:STA/SPO.09.KE.1046.1.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.KE.1046.1.1",
-    "location": {
-      "name": "KE",
-      "description": "KE",
-      "longitude": 16.4755138,
-      "latitude": 48.156642,
-      "altitude": 125
-    },
-    "observedProperties": [
-      "SO2"
-    ],
-    "resourceID": "105"
-  },
-  {
-    "name": "urn:STA/SPO.09.RINN.2251.10.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.RINN.2251.10.1",
-    "location": {
-      "name": "RINN",
-      "description": "RINN",
-      "longitude": 16.4065972222222,
-      "latitude": 48.1841441666667,
-      "altitude": 194
-    },
-    "observedProperties": [
-      "CO"
-    ],
-    "resourceID": "149"
-  },
-  {
-    "name": "urn:STA/SPO.09.LOB.826.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.LOB.826.8.1",
-    "location": {
-      "name": "LOB",
-      "description": "LOB",
-      "longitude": 16.5258382,
-      "latitude": 48.162198,
-      "altitude": 155
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "106"
-  },
-  {
-    "name": "urn:STA/SPO.09.MBA.2250.10.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.MBA.2250.10.1",
-    "location": {
-      "name": "MBA",
-      "description": "MBA",
-      "longitude": 16.3000202777778,
-      "latitude": 48.1883725,
-      "altitude": 180
-    },
-    "observedProperties": [
-      "CO"
-    ],
-    "resourceID": "107"
-  },
-  {
-    "name": "urn:STA/SPO.09.AKC.55397.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.AKC.55397.5.1",
-    "location": {
-      "name": "AKC",
-      "description": "AKC",
-      "longitude": 16.3463248,
-      "latitude": 48.219513,
-      "altitude": 199
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "108"
-  },
-  {
-    "name": "urn:STA/SPO.09.STAD.64538.6001.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.STAD.64538.6001.1",
-    "location": {
-      "name": "STAD",
-      "description": "STAD",
-      "longitude": 16.4553026,
-      "latitude": 48.2267875,
-      "altitude": 159
-    },
-    "observedProperties": [
-      "PM2.5"
-    ],
-    "resourceID": "109"
-  },
-  {
-    "name": "urn:STA/SPO.09.KEND.5860.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.KEND.5860.5.1",
-    "location": {
-      "name": "KEND",
-      "description": "KEND",
-      "longitude": 16.3102269,
-      "latitude": 48.2047616,
-      "altitude": 236
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "150"
-  },
-  {
-    "name": "urn:STA/SPO.09.SCHA.1534.1.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.SCHA.1534.1.1",
-    "location": {
-      "name": "SCHA",
-      "description": "SCHA",
-      "longitude": 16.2990855,
-      "latitude": 48.2362756,
-      "altitude": 319
-    },
-    "observedProperties": [
-      "SO2"
-    ],
-    "resourceID": "110"
-  },
-  {
-    "name": "urn:STA/SPO.09.MBA.1515.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.MBA.1515.8.1",
-    "location": {
-      "name": "MBA",
-      "description": "MBA",
-      "longitude": 16.3000202777778,
-      "latitude": 48.1883725,
-      "altitude": 180
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "111"
-  },
-  {
-    "name": "urn:STA/SPO.09.STEF.815.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.STEF.815.8.1",
-    "location": {
-      "name": "STEF",
-      "description": "STEF",
-      "longitude": 16.3724584,
-      "latitude": 48.208253,
-      "altitude": 172
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "112"
-  },
-  {
-    "name": "urn:STA/SPO.09.A23.65511.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.A23.65511.8.1",
-    "location": {
-      "name": "A23",
-      "description": "A23",
-      "longitude": 16.383134,
-      "latitude": 48.243237,
-      "altitude": 162
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "113"
-  },
-  {
-    "name": "urn:STA/SPO.09.SCHA.1537.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.SCHA.1537.8.1",
-    "location": {
-      "name": "SCHA",
-      "description": "SCHA",
-      "longitude": 16.2990855,
-      "latitude": 48.2362756,
-      "altitude": 319
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "114"
-  },
-  {
-    "name": "urn:STA/SPO.09.STAD.1542.8.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.STAD.1542.8.1",
-    "location": {
-      "name": "STAD",
-      "description": "STAD",
-      "longitude": 16.4553026,
-      "latitude": 48.2267875,
-      "altitude": 159
-    },
-    "observedProperties": [
-      "NO2"
-    ],
-    "resourceID": "115"
-  },
-  {
-    "name": "urn:STA/SPO.09.KE.55254.5.1",
-    "owner": "AIT",
-    "description": "urn:STA/SPO.09.KE.55254.5.1",
-    "location": {
-      "name": "KE",
-      "description": "KE",
-      "longitude": 16.4755138,
-      "latitude": 48.156642,
-      "altitude": 125
-    },
-    "observedProperties": [
-      "PM10"
-    ],
-    "resourceID": "116"
-  },
-  {
     "name": "urn:STA/SPO.09.LAA.822.7.1",
     "owner": "AIT",
     "description": "urn:STA/SPO.09.LAA.822.7.1",
@@ -712,12 +8,12 @@
       "description": "LAA",
       "longitude": 16.3906138,
       "latitude": 48.1607235,
-      "altitude": 251
+      "altitude": 251.0
     },
     "observedProperties": [
       "O3"
     ],
-    "resourceID": "117"
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('166')"
   },
   {
     "name": "urn:STA/SPO.09.FLO.5861.5.1",
@@ -728,12 +24,12 @@
       "description": "FLO",
       "longitude": 16.394629,
       "latitude": 48.2609904,
-      "altitude": 164
+      "altitude": 164.0
     },
     "observedProperties": [
       "PM10"
     ],
-    "resourceID": "118"
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('167')"
   },
   {
     "name": "urn:STA/SPO.09.KE.1047.8.1",
@@ -744,12 +40,12 @@
       "description": "KE",
       "longitude": 16.4755138,
       "latitude": 48.156642,
-      "altitude": 125
+      "altitude": 125.0
     },
     "observedProperties": [
       "NO2"
     ],
-    "resourceID": "119"
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('168')"
   },
   {
     "name": "urn:STA/SPO.09.STEF.816.7.1",
@@ -760,12 +56,12 @@
       "description": "STEF",
       "longitude": 16.3724584,
       "latitude": 48.208253,
-      "altitude": 172
+      "altitude": 172.0
     },
     "observedProperties": [
       "O3"
     ],
-    "resourceID": "120"
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('169')"
   },
   {
     "name": "urn:STA/SPO.09.JAEG.819.38.1",
@@ -776,11 +72,715 @@
       "description": "JAEG",
       "longitude": 16.2972633333333,
       "latitude": 48.2701583333333,
-      "altitude": 200
+      "altitude": 200.0
     },
     "observedProperties": [
       "NO"
     ],
-    "resourceID": "121"
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('170')"
+  },
+  {
+    "name": "urn:STA/SPO.09.A23.65509.1.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.A23.65509.1.1",
+    "location": {
+      "name": "A23",
+      "description": "A23",
+      "longitude": 16.383134,
+      "latitude": 48.243237,
+      "altitude": 162.0
+    },
+    "observedProperties": [
+      "SO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('171')"
+  },
+  {
+    "name": "urn:STA/SPO.09.ZA.1552.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.ZA.1552.8.1",
+    "location": {
+      "name": "ZA",
+      "description": "ZA",
+      "longitude": 16.3543688,
+      "latitude": 48.250101,
+      "altitude": 200.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('172')"
+  },
+  {
+    "name": "urn:STA/SPO.09.GAUD.1505.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.GAUD.1505.8.1",
+    "location": {
+      "name": "GAUD",
+      "description": "GAUD",
+      "longitude": 16.339498,
+      "latitude": 48.186904,
+      "altitude": 179.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('173')"
+  },
+  {
+    "name": "urn:STA/SPO.09.BELG.1500.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.BELG.1500.8.1",
+    "location": {
+      "name": "BELG",
+      "description": "BELG",
+      "longitude": 16.36148,
+      "latitude": 48.174296,
+      "altitude": 218.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('174')"
+  },
+  {
+    "name": "urn:STA/SPO.09.TAB.524.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.TAB.524.8.1",
+    "location": {
+      "name": "TAB",
+      "description": "TAB",
+      "longitude": 16.3803028,
+      "latitude": 48.216677,
+      "altitude": 162.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('175')"
+  },
+  {
+    "name": "urn:STA/SPO.09.ZA.2016.1.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.ZA.2016.1.1",
+    "location": {
+      "name": "ZA",
+      "description": "ZA",
+      "longitude": 16.3543688,
+      "latitude": 48.250101,
+      "altitude": 200.0
+    },
+    "observedProperties": [
+      "SO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('176')"
+  },
+  {
+    "name": "urn:STA/SPO.09.STAD.5517.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.STAD.5517.5.1",
+    "location": {
+      "name": "STAD",
+      "description": "STAD",
+      "longitude": 16.4553026,
+      "latitude": 48.2267875,
+      "altitude": 159.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('177')"
+  },
+  {
+    "name": "urn:STA/SPO.09.SCHA.5065.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.SCHA.5065.5.1",
+    "location": {
+      "name": "SCHA",
+      "description": "SCHA",
+      "longitude": 16.2990855,
+      "latitude": 48.2362756,
+      "altitude": 319.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('178')"
+  },
+  {
+    "name": "urn:STA/SPO.09.LOB.823.7.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.LOB.823.7.1",
+    "location": {
+      "name": "LOB",
+      "description": "LOB",
+      "longitude": 16.5258382,
+      "latitude": 48.162198,
+      "altitude": 155.0
+    },
+    "observedProperties": [
+      "O3"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('179')"
+  },
+  {
+    "name": "urn:STA/SPO.09.FLO.1510.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.FLO.1510.8.1",
+    "location": {
+      "name": "FLO",
+      "description": "FLO",
+      "longitude": 16.394629,
+      "latitude": 48.2609904,
+      "altitude": 164.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('180')"
+  },
+  {
+    "name": "urn:STA/SPO.09.GAUD.5061.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.GAUD.5061.5.1",
+    "location": {
+      "name": "GAUD",
+      "description": "GAUD",
+      "longitude": 16.339498,
+      "latitude": 48.186904,
+      "altitude": 179.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('181')"
+  },
+  {
+    "name": "urn:STA/SPO.09.STEF.812.1.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.STEF.812.1.1",
+    "location": {
+      "name": "STEF",
+      "description": "STEF",
+      "longitude": 16.3724584,
+      "latitude": 48.208253,
+      "altitude": 172.0
+    },
+    "observedProperties": [
+      "SO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('182')"
+  },
+  {
+    "name": "urn:STA/SPO.09.TAB.55388.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.TAB.55388.5.1",
+    "location": {
+      "name": "TAB",
+      "description": "TAB",
+      "longitude": 16.3803028,
+      "latitude": 48.216677,
+      "altitude": 162.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('183')"
+  },
+  {
+    "name": "urn:STA/SPO.09.KEND.1522.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.KEND.1522.8.1",
+    "location": {
+      "name": "KEND",
+      "description": "KEND",
+      "longitude": 16.3102269,
+      "latitude": 48.2047616,
+      "altitude": 236.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('184')"
+  },
+  {
+    "name": "urn:STA/SPO.09.STAD.1539.1.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.STAD.1539.1.1",
+    "location": {
+      "name": "STAD",
+      "description": "STAD",
+      "longitude": 16.4553026,
+      "latitude": 48.2267875,
+      "altitude": 159.0
+    },
+    "observedProperties": [
+      "SO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('185')"
+  },
+  {
+    "name": "urn:STA/SPO.09.JAEG.817.1.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.JAEG.817.1.1",
+    "location": {
+      "name": "JAEG",
+      "description": "JAEG",
+      "longitude": 16.2972633333333,
+      "latitude": 48.2701583333333,
+      "altitude": 200.0
+    },
+    "observedProperties": [
+      "SO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('186')"
+  },
+  {
+    "name": "urn:STA/SPO.09.JAEG.820.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.JAEG.820.8.1",
+    "location": {
+      "name": "JAEG",
+      "description": "JAEG",
+      "longitude": 16.2972633333333,
+      "latitude": 48.2701583333333,
+      "altitude": 200.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('187')"
+  },
+  {
+    "name": "urn:STA/SPO.09.LOB.5862.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.LOB.5862.5.1",
+    "location": {
+      "name": "LOB",
+      "description": "LOB",
+      "longitude": 16.5258382,
+      "latitude": 48.162198,
+      "altitude": 155.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('188')"
+  },
+  {
+    "name": "urn:STA/SPO.09.JAEG.821.7.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.JAEG.821.7.1",
+    "location": {
+      "name": "JAEG",
+      "description": "JAEG",
+      "longitude": 16.2972633333333,
+      "latitude": 48.2701583333333,
+      "altitude": 200.0
+    },
+    "observedProperties": [
+      "O3"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('189')"
+  },
+  {
+    "name": "urn:STA/SPO.09.KEND.64567.6001.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.KEND.64567.6001.1",
+    "location": {
+      "name": "KEND",
+      "description": "KEND",
+      "longitude": 16.3102269,
+      "latitude": 48.2047616,
+      "altitude": 236.0
+    },
+    "observedProperties": [
+      "PM2.5"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('190')"
+  },
+  {
+    "name": "urn:STA/SPO.09.ZA.811.7.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.ZA.811.7.1",
+    "location": {
+      "name": "ZA",
+      "description": "ZA",
+      "longitude": 16.3543688,
+      "latitude": 48.250101,
+      "altitude": 200.0
+    },
+    "observedProperties": [
+      "O3"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('191')"
+  },
+  {
+    "name": "urn:STA/SPO.09.LIES.5511.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.LIES.5511.5.1",
+    "location": {
+      "name": "LIES",
+      "description": "LIES",
+      "longitude": 16.3614531,
+      "latitude": 48.2295081,
+      "altitude": 211.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('192')"
+  },
+  {
+    "name": "urn:STA/SPO.09.LAA.5859.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.LAA.5859.5.1",
+    "location": {
+      "name": "LAA",
+      "description": "LAA",
+      "longitude": 16.3906138,
+      "latitude": 48.1607235,
+      "altitude": 251.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('193')"
+  },
+  {
+    "name": "urn:STA/SPO.09.STEF.814.38.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.STEF.814.38.1",
+    "location": {
+      "name": "STEF",
+      "description": "STEF",
+      "longitude": 16.3724584,
+      "latitude": 48.208253,
+      "altitude": 172.0
+    },
+    "observedProperties": [
+      "NO"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('194')"
+  },
+  {
+    "name": "urn:STA/SPO.09.BELG.5059.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.BELG.5059.5.1",
+    "location": {
+      "name": "BELG",
+      "description": "BELG",
+      "longitude": 16.36148,
+      "latitude": 48.174296,
+      "altitude": 218.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('151')"
+  },
+  {
+    "name": "urn:STA/SPO.09.LIES.1527.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.LIES.1527.8.1",
+    "location": {
+      "name": "LIES",
+      "description": "LIES",
+      "longitude": 16.3614531,
+      "latitude": 48.2295081,
+      "altitude": 211.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('195')"
+  },
+  {
+    "name": "urn:STA/SPO.09.LOB.825.38.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.LOB.825.38.1",
+    "location": {
+      "name": "LOB",
+      "description": "LOB",
+      "longitude": 16.5258382,
+      "latitude": 48.162198,
+      "altitude": 155.0
+    },
+    "observedProperties": [
+      "NO"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('152')"
+  },
+  {
+    "name": "urn:STA/SPO.09.A23.65512.10.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.A23.65512.10.1",
+    "location": {
+      "name": "A23",
+      "description": "A23",
+      "longitude": 16.383134,
+      "latitude": 48.243237,
+      "altitude": 162.0
+    },
+    "observedProperties": [
+      "CO"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('196')"
+  },
+  {
+    "name": "urn:STA/SPO.09.AKC.1548.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.AKC.1548.8.1",
+    "location": {
+      "name": "AKC",
+      "description": "AKC",
+      "longitude": 16.3463248,
+      "latitude": 48.219513,
+      "altitude": 199.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('153')"
+  },
+  {
+    "name": "urn:STA/SPO.09.TAB.2253.10.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.TAB.2253.10.1",
+    "location": {
+      "name": "TAB",
+      "description": "TAB",
+      "longitude": 16.3803028,
+      "latitude": 48.216677,
+      "altitude": 162.0
+    },
+    "observedProperties": [
+      "CO"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('197')"
+  },
+  {
+    "name": "urn:STA/SPO.09.KE.1046.1.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.KE.1046.1.1",
+    "location": {
+      "name": "KE",
+      "description": "KE",
+      "longitude": 16.4755138,
+      "latitude": 48.156642,
+      "altitude": 125.0
+    },
+    "observedProperties": [
+      "SO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('154')"
+  },
+  {
+    "name": "urn:STA/SPO.09.RINN.2251.10.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.RINN.2251.10.1",
+    "location": {
+      "name": "RINN",
+      "description": "RINN",
+      "longitude": 16.4065972222222,
+      "latitude": 48.1841441666667,
+      "altitude": 194.0
+    },
+    "observedProperties": [
+      "CO"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('198')"
+  },
+  {
+    "name": "urn:STA/SPO.09.LOB.826.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.LOB.826.8.1",
+    "location": {
+      "name": "LOB",
+      "description": "LOB",
+      "longitude": 16.5258382,
+      "latitude": 48.162198,
+      "altitude": 155.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('155')"
+  },
+  {
+    "name": "urn:STA/SPO.09.KEND.5860.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.KEND.5860.5.1",
+    "location": {
+      "name": "KEND",
+      "description": "KEND",
+      "longitude": 16.3102269,
+      "latitude": 48.2047616,
+      "altitude": 236.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('199')"
+  },
+  {
+    "name": "urn:STA/SPO.09.MBA.2250.10.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.MBA.2250.10.1",
+    "location": {
+      "name": "MBA",
+      "description": "MBA",
+      "longitude": 16.3000202777778,
+      "latitude": 48.1883725,
+      "altitude": 180.0
+    },
+    "observedProperties": [
+      "CO"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('156')"
+  },
+  {
+    "name": "urn:STA/SPO.09.AKC.55397.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.AKC.55397.5.1",
+    "location": {
+      "name": "AKC",
+      "description": "AKC",
+      "longitude": 16.3463248,
+      "latitude": 48.219513,
+      "altitude": 199.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('157')"
+  },
+  {
+    "name": "urn:STA/SPO.09.STAD.64538.6001.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.STAD.64538.6001.1",
+    "location": {
+      "name": "STAD",
+      "description": "STAD",
+      "longitude": 16.4553026,
+      "latitude": 48.2267875,
+      "altitude": 159.0
+    },
+    "observedProperties": [
+      "PM2.5"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('158')"
+  },
+  {
+    "name": "urn:STA/SPO.09.SCHA.1534.1.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.SCHA.1534.1.1",
+    "location": {
+      "name": "SCHA",
+      "description": "SCHA",
+      "longitude": 16.2990855,
+      "latitude": 48.2362756,
+      "altitude": 319.0
+    },
+    "observedProperties": [
+      "SO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('159')"
+  },
+  {
+    "name": "urn:STA/SPO.09.MBA.1515.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.MBA.1515.8.1",
+    "location": {
+      "name": "MBA",
+      "description": "MBA",
+      "longitude": 16.3000202777778,
+      "latitude": 48.1883725,
+      "altitude": 180.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('160')"
+  },
+  {
+    "name": "urn:STA/SPO.09.STEF.815.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.STEF.815.8.1",
+    "location": {
+      "name": "STEF",
+      "description": "STEF",
+      "longitude": 16.3724584,
+      "latitude": 48.208253,
+      "altitude": 172.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('161')"
+  },
+  {
+    "name": "urn:STA/SPO.09.A23.65511.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.A23.65511.8.1",
+    "location": {
+      "name": "A23",
+      "description": "A23",
+      "longitude": 16.383134,
+      "latitude": 48.243237,
+      "altitude": 162.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('162')"
+  },
+  {
+    "name": "urn:STA/SPO.09.SCHA.1537.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.SCHA.1537.8.1",
+    "location": {
+      "name": "SCHA",
+      "description": "SCHA",
+      "longitude": 16.2990855,
+      "latitude": 48.2362756,
+      "altitude": 319.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('163')"
+  },
+  {
+    "name": "urn:STA/SPO.09.STAD.1542.8.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.STAD.1542.8.1",
+    "location": {
+      "name": "STAD",
+      "description": "STAD",
+      "longitude": 16.4553026,
+      "latitude": 48.2267875,
+      "altitude": 159.0
+    },
+    "observedProperties": [
+      "NO2"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('164')"
+  },
+  {
+    "name": "urn:STA/SPO.09.KE.55254.5.1",
+    "owner": "AIT",
+    "description": "urn:STA/SPO.09.KE.55254.5.1",
+    "location": {
+      "name": "KE",
+      "description": "KE",
+      "longitude": 16.4755138,
+      "latitude": 48.156642,
+      "altitude": 125.0
+    },
+    "observedProperties": [
+      "PM10"
+    ],
+    "resourceURL": "http://enviro5.ait.ac.at/tomcat/openUwedat-oData/DemoService.svc/Sensors('165')"
   }
 ]

@@ -6,10 +6,8 @@
     "location":
     {
       "name": "Poznan",
-      "point": {
-        "x": 16.383134,
-        "y": 48.243237
-      },
+      "longitude": 16.952986,
+      "latitude": 52.406995,
       "altitude": 100
     },
     "observedProperties":

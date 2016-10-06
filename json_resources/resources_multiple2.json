@@ -5,11 +5,9 @@
     "description": "Senses something...",
     "location":
     {
-      "name": "Wroclaw",
-      "point": {
-        "x": 23.383134,
-        "y": 46.243237
-      },
+      "name": "Lawica",
+      "longitude": 16.834728,
+      "latitude": 52.412137,
       "altitude": 100
     },
     "observedProperties":
@@ -24,11 +22,9 @@
     "description": "Senses something...",
     "location":
     {
-      "name": "Wroclaw",
-      "point": {
-        "x": 12.383134,
-        "y": 77.243237
-      },
+      "name": "Lawica",
+      "longitude": 16.829578,
+      "latitude": 52.416011,
       "altitude": 100
     },
     "observedProperties":
@@ -44,11 +40,9 @@
     "description": "Senses something...",
     "location":
     {
-      "name": "Szczecin",
-      "point": {
-        "x": 12.383134,
-        "y": 6.243237
-      },
+      "name": "Lawica",
+      "longitude": 16.836273,
+      "latitude": 52.415488,
       "altitude": 100
     },
     "observedProperties":

@@ -1,6 +1,7 @@
 package eu.h2020.symbiote.generators;
 
 import com.google.gson.Gson;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.SimpleSensor;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.http.HttpResponse;
@@ -32,10 +33,12 @@ public class AddResources {
     private static final String PLATFORM_2 = "platform2.json";
     private static final String PLATFORM_3 = "platform3.json";
     private static final String PLATFORM_4 = "platform4.json";
+    private static final String PLATFORM_UWE = "platformUWEDAT.json";
     private static final String RESOURCE_1 = "resource1.json";
     private static final String RESOURCE_2 = "resource2.json";
     private static final String RESOURCE_3 = "resources_multiple1.json";
     private static final String RESOURCE_4 = "resources_multiple2.json";
+    private static final String RESOURCE_UWE = "resources_uwedat_test.json";
 
     private static final String HOST = "http://localhost:8101";
 
@@ -46,6 +49,7 @@ public class AddResources {
             registerPlatformAndResources(PLATFORM_2, RESOURCE_2);
             registerPlatformAndResources(PLATFORM_3, RESOURCE_3);
             registerPlatformAndResources(PLATFORM_4, RESOURCE_4);
+            registerPlatformAndResources(PLATFORM_UWE, RESOURCE_UWE);
             System.out.println("Registration process completed!");
         } catch (IOException e) {
             e.printStackTrace();
@@ -110,9 +114,9 @@ public class AddResources {
         log.info("Received repsonse: " + sb);
         log.info("||||||||||||||||||||||||||||||||||||||||");
         Gson gson2 = new Gson();
-        String result = gson2.fromJson(sb.toString(), String.class);
+        SimpleSensor[] result = gson2.fromJson(sb.toString(), SimpleSensor[].class);
         log.info("Resource created! Id: " + result);
-        return result;
+        return sb.toString();
     }
 
     private static String readFile(String filename) throws IOException {

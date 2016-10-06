@@ -5,11 +5,9 @@
     "description": "Senses something...",
     "location":
     {
-      "name": "Krakow",
-      "point": {
-        "x": 34.383134,
-        "y": 11.243237
-      },
+      "name": "Malta",
+      "longitude": 16.960144,
+      "latitude": 52.401790,
       "altitude": 100
     },
     "observedProperties":
@@ -24,11 +22,9 @@
     "description": "Senses something...",
     "location":
     {
-      "name": "Wroclaw",
-      "point": {
-        "x": 67.383134,
-        "y": 67.243237
-      },
+      "name": "Wilda",
+      "longitude": 16.916611,
+      "latitude": 52.376375,
       "altitude": 100
     },
     "observedProperties":
