@@ -1,6 +1,7 @@
 package eu.h2020.symbiote.generators;
 
 import com.google.gson.Gson;
+import eu.h2020.symbiote.DEPRICATEDexecutors.models.SimplePlatform;
 import eu.h2020.symbiote.DEPRICATEDexecutors.models.SimpleSensor;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -9,6 +10,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.util.EntityUtils;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
@@ -45,7 +47,9 @@ public class AddResources {
 
     public static void main(String[] args) {
         try {
+            System.out.println("1");
             registerPlatformAndResources(PLATFORM_1, RESOURCE_1);
+            System.out.println("2");
             registerPlatformAndResources(PLATFORM_2, RESOURCE_2);
             registerPlatformAndResources(PLATFORM_3, RESOURCE_3);
             registerPlatformAndResources(PLATFORM_4, RESOURCE_4);
@@ -78,20 +82,14 @@ public class AddResources {
         input.setContentType("application/json");
         post.setEntity(input);
         HttpResponse response = client.execute(post);
-        BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
-        String line = "";
-        StringBuilder sb = new StringBuilder();
-        while ((line = rd.readLine()) != null) {
-            System.out.println(line);
-            sb.append(line);
-        }
+        String sb = EntityUtils.toString(response.getEntity());
         log.info("||||||||||||||||||||||||||||||||||||||||");
         log.info("Received repsonse: " + sb);
         log.info("||||||||||||||||||||||||||||||||||||||||");
         Gson gson2 = new Gson();
-        String[] result = gson2.fromJson(sb.toString(), String[].class);
-        log.info("Resource created! Id: " + result[0]);
-        return result[0];
+        SimplePlatform result = gson2.fromJson(sb.toString(), SimplePlatform.class);
+        log.info("Resource created! Id: " + result.getId());
+        return result.getId();
     }
 
     private static String registerResource(String platformID, String resourceFile) throws IOException {
@@ -111,7 +109,7 @@ public class AddResources {
             sb.append(line);
         }
         log.info("||||||||||||||||||||||||||||||||||||||||");
-        log.info("Received repsonse: " + sb);
+        log.info("Received repsonse: " + sb.toString());
         log.info("||||||||||||||||||||||||||||||||||||||||");
         Gson gson2 = new Gson();
         SimpleSensor[] result = gson2.fromJson(sb.toString(), SimpleSensor[].class);
