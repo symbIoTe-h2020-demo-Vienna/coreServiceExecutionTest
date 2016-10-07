@@ -101,13 +101,7 @@ public class AddResources {
         input.setContentType("application/json");
         post.setEntity(input);
         HttpResponse response = client.execute(post);
-        BufferedReader rd = new BufferedReader(new InputStreamReader(response.getEntity().getContent()));
-        String line = "";
-        StringBuilder sb = new StringBuilder();
-        while ((line = rd.readLine()) != null) {
-            System.out.println(line);
-            sb.append(line);
-        }
+        String sb = EntityUtils.toString(response.getEntity());
         log.info("||||||||||||||||||||||||||||||||||||||||");
         log.info("Received repsonse: " + sb.toString());
         log.info("||||||||||||||||||||||||||||||||||||||||");
